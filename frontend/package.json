@@ -1,0 +1,33 @@
+{
+  "name": "chatapp",
+  "version": "0.0.1",
+  "description": "simple chat app",
+  "productName": "Chat App",
+  "cordovaId": "org.cordova.quasar.app",
+  "capacitorId": "",
+  "author": "nethkenn <johnkenneth.delara@gmail.com>",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.8.1",
+    "axios": "^0.18.1",
+    "laravel-echo": "^1.7.0",
+    "pusher-js": "^6.0.2",
+    "quasar": "^1.11.1",
+    "vue-feedback-reaction": "^1.2.0",
+    "vuex-persistedstate": "^3.0.1"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.8.6"
+  },
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ]
+}
